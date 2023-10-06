@@ -23,7 +23,7 @@ if ((Get-VMReplication | select-string -inputobject {$_.Health} -pattern “Crit
 {
 $SMTPServer = “smtp.gmail.com”
 $SMTPPort = “587”
-$Username = “fromemail@gmail.com””
+$Username = “fromemail@gmail.com”
 $Password = “changeme”
 $to = “receiveemail@gmail.com”
 $subject = “Replica CRITICAL error on SERVERNAME”
